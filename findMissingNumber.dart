@@ -3,9 +3,7 @@ int? findMissingNumber(List<int>? list){
   int next = list[1];
   for(int i  = 0;i < list.length-1; i++){
     if(list[i+1] != next){return next;}
-    else{
       next++;
-    }
   }
 }
 
