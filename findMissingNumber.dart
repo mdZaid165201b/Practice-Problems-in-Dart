@@ -13,3 +13,6 @@ void main(){
   List<int>? list = [6,1,2,8,3,4,7,10,5];
   print(findMissingNumber(list));
 }
+/*
+  output : 9
+*/
